@@ -1,25 +1,27 @@
 import React from 'react';
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import './HeaderAndFooterStyles/Footer.css';
 
-export default function Footer()
-{
-    return <footer>
-        <div className='footer-logo'>
-            <img src={'Images/PrahamsaLogo.png'} alt='prahamsa logo organization' />
-            <div className='footer-name'>
-                <h1>
-                    Prashamsa Foundation
-                </h1>
-                <p>
-                    Art Of Giving Joy Of Giving
-                </p>
+export default function Footer() {
+    return (
+        <footer>
+            <div className='footer-logo'>
+                <img src={'Images/PrahamsaLogo.png'} alt='prahamsa logo organization' />
+                <div className='footer-name'>
+                    <h1>
+                        Prashamsa Foundation
+                    </h1>
+                    <p>
+                        Art Of Giving Joy Of Giving
+                    </p>
+                </div>
             </div>
-        </div>
-        <div className='social-media'>
-            <a href='/'>FaceBook</a>
-            <a href='/'>Instagram</a>
-            <a href='/'>Twitter</a>
-            <a href='/'>LinkedIn</a>
-        </div>
-    </footer>
+            <div className='social-media'>
+                <a href='/'><FaFacebookF /></a>
+                <a href='/'><FaTwitter /></a>
+                <a href='/'><FaInstagram /></a>
+                <a href='/'><FaLinkedinIn /></a>
+            </div>
+        </footer>
+    );
 }

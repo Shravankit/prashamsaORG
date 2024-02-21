@@ -1,8 +1,8 @@
 import React from 'react';
 import OurWorkData from './HomePageData/OurWorkData';
-import './HomePageStyles/OurWork.css';
+import './HomePageStyles/Events.css';
 
-export default function OurWork()
+export default function Events()
 {
     return <section id='ourWorksection' className='allSections'>
         <div className='ourWorks'>

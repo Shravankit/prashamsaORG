@@ -48,3 +48,51 @@
     place-items: center;
     /* background-color: burlywood; */
 }
+
+@media screen and (min-width: 480px) and (max-width: 1300px) {
+    .About{
+        display: grid;
+        height: 80vh;
+        width: 100%;
+        place-items: center;
+    }
+    
+    .aboutpage{
+        display: grid;
+        place-items: center;
+    }
+    
+    .aboutpage-logo{
+        width: 50%;
+        padding: 0;
+        margin: 0;
+        /* background-color: beige; */
+    }
+    
+    .aboutpage-content{
+        display: grid;
+        place-items: center;
+    }
+    
+    .aboutpage-content button{
+        /* height: 3vh;
+        width: 30%; */
+        display: none;
+    }
+    
+    .aboutpage-logo img{
+        width: 50%;
+    }
+    
+    .aboutpage{
+        width: 100%;
+        display: grid;
+        place-items: center;
+        /* background-color: burlywood; */
+    }
+    #aboutPage h1{
+        font-size: 1.5rem;
+        /* background-color: blueviolet; */
+        width: 100%;
+    }
+}

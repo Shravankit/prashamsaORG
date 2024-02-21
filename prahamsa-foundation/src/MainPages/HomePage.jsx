@@ -3,14 +3,14 @@ import HeroSection from './HomePage/HeroSection';
 import About from './HomePage/AboutSection';
 import Motto from './HomePage/MottoSection';
 import Contact from './HomePage/ContactSection';
-import OurWork from './HomePage/OurWork';
+import Events from './HomePage/Events';
 
 export default function Home()
 {
     return <section>
         <HeroSection />
         <About />
-        <OurWork />
+        <Events />
         <Motto />
         <Contact />
     </section>

@@ -6,8 +6,8 @@ import Home from './MainPages/HomePage';
 import About from './MainPages/AboutPage';
 import ContactPage from './MainPages/ContactPage';
 import ScrollToTop from './ScrollToTop';
-import OurWork from './MainPages/HomePage/OurWork';
 import Dashboard from './Dashboard/Dashboard';
+import Events from './MainPages/HomePage/Events';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<ContactPage />} />
-          <Route path='/ourwork' element={<OurWork />} />
+          <Route path='/events' element={<Events />} />
           <Route path='/dashboard' element={<Dashboard />} />
         </Routes>
         <Footer />

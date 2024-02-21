@@ -57,7 +57,11 @@ li a{
     padding: 0;
 }
 
-@media screen and (max-width: 480px) {
+.active{
+    color: orange;
+}
+
+@media screen and (min-width: 480px) and (max-width: 1300px) {
     header {
         width: 100%;
         display: flex;
@@ -75,7 +79,7 @@ li a{
     }
     
     .header-logo img {
-        width: 100%;
+        width: 80%;
     }
     
     .header-navigation {

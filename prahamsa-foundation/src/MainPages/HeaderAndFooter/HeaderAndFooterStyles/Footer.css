@@ -40,20 +40,31 @@ footer{
     padding: 0;
     width: 100%;
     text-decoration: none;
+    font-size: 2rem;
     color: #fff;
     font-weight: bold;
 }
 
-@media screen and (max-width: 480px) {
+.social-media a:hover{
+    color: orange;
+}
+
+@media screen and (min-width: 480px) and (max-width: 1300px) {
     footer{
         height: 20vh;
     }
     .social-media{
         display: flex;
+        /* background-color: bisque; */
         flex-wrap: wrap;
+    }
+    .social-media a{
+        font-size: 1rem;
+        width: 50%;
+        /* background-color: brown; */
+        
     }
     .footer-logo img{
         display: none;
     }
-
 }
