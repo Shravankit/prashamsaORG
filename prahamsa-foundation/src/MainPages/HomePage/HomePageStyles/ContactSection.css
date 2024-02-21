@@ -1,0 +1,108 @@
+#contact-section {
+    display: grid;
+    place-items: center;
+}
+
+.contact{
+    width: 70%;
+    height: 70vh;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 20px;
+    place-items: center;
+    background-color: rgb(217, 217, 217);
+    /* box-shadow: 5px 5px 5px 5px grey ; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact-input{
+    width: 50%;
+    display: grid;
+    gap: 0.8rem;
+    place-items: center;
+}
+
+.contact-input h1{
+    font-size: 2rem;
+    width: 50%;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-input input{
+    width: 50%;
+    height: 3vh;
+    border-radius: 10px;
+    border: 0.8px solid;
+}
+
+.contact-input textarea{
+    width: 50%;
+    height: 15vh;
+    border-radius: 10px;
+    border: 0.8px solid;
+}
+
+.contact-input button{
+    width: 25%;
+    height: 4vh;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact-image{
+    width: 40%;
+}
+
+.contact-image img{
+    width: 100%;
+}
+
+@media screen and (max-width: 480px)
+{
+    .contact{
+        display: grid;
+        overflow: hidden;
+    }
+    .contact-image{
+        position: absolute;
+        width: 100%;
+    }
+    .contact-image img{
+        width: 100%;
+        background: none;
+        display: none;
+    }
+
+    .contact-input{
+        width: 100%;
+        z-index: 5;
+    }
+    .contact-input input{
+        width: 80%;
+        background: transparent;
+        backdrop-filter: blur(1px);
+    }
+    .contact-input textarea{
+        width: 80%;
+        background: transparent;
+        backdrop-filter: blur(1px);
+    }
+    .contact-input h1{
+        font-size: 2rem;
+        width: 70%;
+    }
+    ::placeholder{
+        color: #000000;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}

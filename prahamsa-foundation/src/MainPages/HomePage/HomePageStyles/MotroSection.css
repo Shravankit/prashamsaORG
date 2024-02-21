@@ -1,0 +1,107 @@
+#motto-section{
+    display: grid;
+    place-items: center;
+    background-color: rgb(187, 187, 187);
+}
+
+#motto-section p {
+    font-size: 1.2rem;
+}
+
+#motto-section h2{
+    font-size: 1.2rem;
+}
+
+.motto, .vision, .vision2{
+    display: flex;
+    width: 70%;
+    height: 25vh;
+    background: rgb(217, 217, 217);
+    border-radius: 20px;
+    visibility: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.motto-image, .vision-image, .vision2-image{
+    width: 30%;
+    overflow: hidden;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.vision-image{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.motto-image img{
+    width: 100%;
+}
+
+.vision-image img{
+    width: 120%;
+}
+
+.vision2-image img{
+    width: 130%;
+}
+
+.motto-content, .vision-content, .vision2-content{
+    width: 70%;
+    display: grid;
+    place-items: center;
+}
+
+.motto-anim{
+    animation: inViewAnimation 0.8s ease-in-out forwards;
+    visibility: visible;
+}
+
+.vision-anim{
+    animation: inViewAnimation 1.2s ease-in-out forwards;
+    visibility: visible;
+}
+
+.vision2-anim{
+    animation: inViewAnimation 1.6s ease-in-out forwards;
+    visibility: visible;
+}
+
+@keyframes inViewAnimation{
+    from{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+@media screen and (max-width: 480px) {   
+    #motto-section p {
+        font-size: 0.8rem;
+    }
+
+    #motto-section h2{
+        font-size: 0.8rem;
+    }
+
+    .motto, .vision, .vision2{
+        display: grid;
+        place-items: center;
+        width: 80%;
+        height: 25vh;
+        background: rgb(217, 217, 217);
+        border-radius: 20px;
+        /* visibility: view; */
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .motto-image, .vision-image, .vision2-image{
+        display: none;
+    }
+}

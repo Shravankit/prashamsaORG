@@ -1,0 +1,50 @@
+#aboutPage{
+    display: grid;
+    place-items: center;
+}
+
+#aboutPage h1{
+    font-size: 2rem;
+    /* background-color: blueviolet; */
+    width: 50%;
+}
+
+.About{
+    display: grid;
+    height: 80vh;
+    width: 75%;
+    place-items: center;
+}
+
+.aboutpage{
+    display: grid;
+    place-items: center;
+}
+
+.aboutpage-logo{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    /* background-color: beige; */
+}
+
+.aboutpage-content{
+    display: grid;
+    place-items: center;
+}
+
+.aboutpage-content button{
+    height: 3vh;
+    width: 30%;
+}
+
+.aboutpage-logo img{
+    width: 50%;
+}
+
+.aboutpage{
+    width: 50%;
+    display: grid;
+    place-items: center;
+    /* background-color: burlywood; */
+}
