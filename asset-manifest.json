@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/prashamsaORG/static/css/main.3c15dd56.css",
-    "main.js": "/prashamsaORG/static/js/main.972aedbf.js",
+    "main.js": "/prashamsaORG/static/js/main.a9d3c273.js",
     "index.html": "/prashamsaORG/index.html",
     "main.3c15dd56.css.map": "/prashamsaORG/static/css/main.3c15dd56.css.map",
-    "main.972aedbf.js.map": "/prashamsaORG/static/js/main.972aedbf.js.map"
+    "main.a9d3c273.js.map": "/prashamsaORG/static/js/main.a9d3c273.js.map"
   },
   "entrypoints": [
     "static/css/main.3c15dd56.css",
-    "static/js/main.972aedbf.js"
+    "static/js/main.a9d3c273.js"
   ]
 }
