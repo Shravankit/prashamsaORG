@@ -10,7 +10,7 @@ export default function About()
         </h1>
         <div className='aboutpage'>
             <div className='aboutpage-logo'>
-                <img src={'/images/prahamsaLogo.png'} alt='logo organization nonprofit ngo'/>
+                <img src={'images/prahamsaLogo.png'} alt='logo organization nonprofit ngo'/>
             </div>
             <div className='aboutpage-content'>
                 <h1>

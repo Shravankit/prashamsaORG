@@ -43,12 +43,12 @@ export default function Motto() {
                     </h2>
                 </div>
                 <div className='motto-image'>
-                    <img src={'/images/Motto-Image.jpg'} alt='our motto foundation organization prashamsa'/>
+                    <img src={'/images/Motto-Image.png'} alt='our motto foundation organization prashamsa'/>
                 </div>
             </div>
             <div className={`vision ${inView ? 'vision-anim' : ''}`}>
                 <div className='vision-image'>
-                    <img src={'/images/Vission-2.jpg'} alt='our motto foundation organization prashamsa'/>
+                    <img src={'/images/Vission-2.png'} alt='our motto foundation organization prashamsa'/>
                 </div>
                 <div className='vision-content'>
                     <p>
@@ -69,7 +69,7 @@ export default function Motto() {
                     </h2>
                 </div>
                 <div className='vision2-image'>
-                    <img src={'/images/Vission.jpg'} alt='our motto foundation organization prashamsa'/>
+                    <img src={'/images/Vission.png'} alt='our motto foundation organization prashamsa'/>
                 </div>
             </div>
         </section>
