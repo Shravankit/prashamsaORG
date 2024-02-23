@@ -22,7 +22,7 @@ export default function About()
                 <button><Link to='/about'>More About Us</Link></button>
             </div>
             <div className='about-logo'>
-                <img src={'/images/prahamsaLogo.png'} alt='logo organization nonprofit ngo'/>
+                <img src={'images/prahamsaLogo.png'} alt='logo organization nonprofit ngo'/>
             </div>
         </div>
     </section>
