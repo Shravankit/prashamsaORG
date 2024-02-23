@@ -66,7 +66,7 @@
     width: 100%;
 }
 
-@media screen and (min-width: 480px) and (max-width: 1300px)
+@media screen and (min-width: 350px) and (max-width: 1300px)
 {
     .contact{
         display: grid;
