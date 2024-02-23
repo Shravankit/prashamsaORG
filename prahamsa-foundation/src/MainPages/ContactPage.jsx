@@ -40,7 +40,7 @@ export default function ContactPage()
                 <button onClick={handleSubmit} type='submit'>Submit</button>
             </div>
             <div className='contact-image'>
-                <img src={'images/PrahamsaLogo.png'} alt='contact prashamsa oraganization' />
+                <img src={'/images/PrahamsaLogo.png'} alt='contact prashamsa oraganization' />
             </div>
         </div>
     </section>

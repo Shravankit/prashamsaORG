@@ -6,7 +6,7 @@ export default function Footer() {
     return (
         <footer>
             <div className='footer-logo'>
-                <img src={'Images/PrahamsaLogo.png'} alt='prahamsa logo organization' />
+                <img src={'images/PrahamsaLogo.png'} alt='prahamsa logo organization' />
                 <div className='footer-name'>
                     <h1>
                         Prashamsa Foundation

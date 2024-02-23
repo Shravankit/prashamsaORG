@@ -40,7 +40,7 @@ export default function Contact()
                 <button onClick={handleSubmit}>Submit</button>
             </div>
             <div className='contact-image'>
-                <img src={'images/PrahamsaLogo.png'} alt='contact prashamsa oraganization' />
+                <img src={'/images/PrahamsaLogo.png'} alt='contact prashamsa oraganization' />
             </div>
         </div>
     </section>
